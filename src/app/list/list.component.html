@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<title>Test Angular</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<header></header>
+
+<body>
+    <div class="body-list">
+        <h1 class="title">List Hero</h1>
+
+        <div class="list-hero">
+            <button *ngFor="let item of listCurrentPaging" class="btn-hero" (click)="gotoDetail(item.id)"><img src={{item.icon}} /></button>
+        </div>
+        <div class="list-page-number">
+            <button *ngFor="let pageNumber of totalPage" class="page-number" (click)="updatePaging(pageNumber)">
+            {{pageNumber}}
+          </button>
+        </div>
+    </div>
+</body>
+<footer></footer>
+
+</html>

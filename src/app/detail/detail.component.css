@@ -1,0 +1,31 @@
+.body-list{
+    width: 1010px;
+    position: absolute;
+    margin: 0 169.5px 0 169.5px;
+    border-style: solid;
+    border-width:  1px 3px 3px 1px;
+}
+.body-list hr{
+    margin: 1px 10px 1px 10px;
+}
+.header-hero{
+    margin: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+.header-hero img{
+    padding-top: 0%;
+}
+.header-hero h2{
+    padding-left: 5px;
+    padding-top: 0%;
+    margin-bottom:10px;
+    margin-top: 0%;
+}
+.header-hero h3{
+    margin-top: 10px;
+    margin-bottom:0%;
+}
+.status-hero{
+    border-style: initial;
+}
